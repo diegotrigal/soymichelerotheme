@@ -218,3 +218,41 @@ function load_language() {
     }
 }
 add_action('after_setup_theme', 'load_language');
+
+
+// Función para actualizar automáticamente el tema por medio de GitHub
+
+function soymichelero_check_for_updates( $transient ) {
+    if ( empty( $transient->checked ) ) {
+        return $transient;
+    }
+
+    // Datos del repositorio en GitHub
+    $github_api_url = 'https://api.github.com/repos/diegotrigal/soymichelerotheme/releases/latest';
+
+    // Obtiene los datos del último release en GitHub
+    $response = wp_remote_get( $github_api_url );
+
+    if ( is_wp_error( $response ) ) {
+        return $transient; // Si hay error, no hacer nada
+    }
+
+    $release_data = json_decode( wp_remote_retrieve_body( $response ) );
+
+    if ( isset( $release_data->tag_name ) ) {
+        $new_version = $release_data->tag_name;
+
+        // Comparar la versión actual del tema con la del release en GitHub
+        if ( version_compare( $transient->checked['soymichelero'], $new_version, '<' ) ) {
+            $transient->response['soymichelero'] = [
+                'theme'       => 'soymichelero',
+                'new_version' => $new_version,
+                'url'         => $release_data->html_url,
+                'package'     => $release_data->zipball_url, // URL directa al ZIP
+            ];
+        }
+    }
+
+    return $transient;
+}
+add_filter( 'site_transient_update_themes', 'soymichelero_check_for_updates' );
