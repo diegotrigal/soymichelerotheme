@@ -1,3 +1,5 @@
+<!-- ¡Hola! Esto es solo una prueba visual para la versión 1.2 -->
+
 <!DOCTYPE html>
 <html lang="es" style="width:100vw; overflow-x:hidden;">
 

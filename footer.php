@@ -50,7 +50,7 @@
     <!-- Contenido solo para dispositivos menores a 640px -->
     <div class="row d-sm-none">
         <div class="col-12 text-center">
-            <h2 class="light-color">SOY MICHELERO LLC</h2>
+            <h2 class="light-color">SOY MICHELERO LLC | v1.2</h2>
             <p class="light-color">801 Travis Street, Suite 2101, PMB 1092, Houston, TX 77002</p>
             <p class="light-color tyc">
                 <a href="<?php echo home_url(); ?>/terms-and-conditions">
