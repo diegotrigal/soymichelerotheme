@@ -23,7 +23,7 @@ jobs:
           THEME_NAME="soymichelero"
           ZIP_NAME="${THEME_NAME}-$(echo $GITHUB_REF | sed 's/refs\/tags\///').zip"
           mkdir $THEME_NAME                     # 🟢 Crear carpeta "soymichelero"
-          cp -R ./* $THEME_NAME                 # 🟢 Copiar todos los archivos dentro de esa carpeta
+          cp -R $(ls -A | grep -v '^soymichelero$') $THEME_NAME
           zip -r $ZIP_NAME $THEME_NAME -x '*.git*' -x '.github/*'  # 🟢 Comprimir en formato correcto
 
       - name: Create Release and Upload Asset
