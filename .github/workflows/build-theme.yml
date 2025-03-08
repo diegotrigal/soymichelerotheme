@@ -22,9 +22,15 @@ jobs:
         run: |
           THEME_NAME="soymichelero"
           ZIP_NAME="${THEME_NAME}-$(echo $GITHUB_REF | sed 's/refs\/tags\///').zip"
-          mkdir $THEME_NAME                     # 🟢 Crear carpeta "soymichelero"
-          cp -R $(ls -A | grep -v '^soymichelero$') $THEME_NAME
-          zip -r $ZIP_NAME $THEME_NAME -x '*.git*' -x '.github/*'  # 🟢 Comprimir en formato correcto
+
+          # Crear carpeta "soymichelero" dentro del workspace
+          mkdir $THEME_NAME
+
+          # Copiar todo el contenido del repositorio dentro de la carpeta "soymichelero"
+          rsync -av --progress . "$THEME_NAME/" --exclude="$THEME_NAME" --exclude=".git" --exclude=".github"
+
+          # Comprimir el contenido en formato correcto
+          zip -r $ZIP_NAME $THEME_NAME
 
       - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v1
