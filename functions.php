@@ -228,39 +228,33 @@ function soymichelero_check_for_updates($transient) {
         return $transient;
     }
 
-    // Datos del repositorio en GitHub
-    $github_api_url = 'https://api.github.com/repos/diegotrigal/soymichelerotheme/releases/latest';
+    // URL del API de GitHub para obtener el último tag (release)
+    $github_api_url = 'https://api.github.com/repos/diegotrigal/soymichelerotheme/tags';
 
-    // Obtiene los datos del último release en GitHub
+    // Solicitud a la API de GitHub
     $response = wp_remote_get($github_api_url);
 
     if (is_wp_error($response)) {
         return $transient; // Si hay error, no hacer nada
     }
 
-    $release_data = json_decode(wp_remote_retrieve_body($response));
+    $tags_data = json_decode(wp_remote_retrieve_body($response));
 
-    if (isset($release_data->tag_name)) {
-        $new_version = str_replace('v', '', $release_data->tag_name); // Elimina la 'v' para evitar conflictos
+    // Verifica que haya tags disponibles y que el primer tag tenga un nombre
+    if (is_array($tags_data) && !empty($tags_data) && isset($tags_data[0]->name)) {
+        $new_version = str_replace('v', '', $tags_data[0]->name); // Elimina la 'v' si la hay
 
-        // Verifica que haya assets y que el primer asset tenga la URL de descarga
-        if (!empty($release_data->assets) && isset($release_data->assets[0]->browser_download_url)) {
-            $zip_url = $release_data->assets[0]->browser_download_url;
+        // URL directa al ZIP del último tag
+        $zip_url = 'https://github.com/diegotrigal/soymichelerotheme/archive/refs/tags/' . $tags_data[0]->name . '.zip';
 
-            // Comparar la versión actual del tema con la del release en GitHub
-            if (version_compare(wp_get_theme('soymichelero')->get('Version'), $new_version, '<')) {
-                $transient->response['soymichelero'] = [
-                    'theme'       => 'soymichelero',
-                    'new_version' => $new_version,
-                    'url'         => $release_data->html_url,
-                    'package'     => $zip_url,
-                ];
-            }
-        } else {
-            // Si no se encuentra el ZIP, muestra un mensaje de error
-            add_action('admin_notices', function () {
-                echo '<div class="error"><p><strong>Error:</strong> No se encontró el archivo ZIP en el release. Revisa el release en GitHub.</p></div>';
-            });
+        // Comparar la versión actual del tema con el último tag
+        if (version_compare(wp_get_theme('soymichelero')->get('Version'), $new_version, '<')) {
+            $transient->response['soymichelero'] = [
+                'theme'       => 'soymichelero',
+                'new_version' => $new_version,
+                'url'         => 'https://github.com/diegotrigal/soymichelerotheme/releases',
+                'package'     => $zip_url,
+            ];
         }
     }
 
