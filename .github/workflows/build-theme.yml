@@ -1,26 +1,31 @@
-name: Build SoyMichelero Theme ZIP
+name: Build and Release Theme
 
 on:
   push:
-    branches:
-      - main
-  release:
-    types: [created]
+    tags:
+      - '*'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Crear ZIP del tema
-        run: |
-          zip -r soymichelero-v${{ github.event.release.tag_name || 'main' }}.zip . -x "*.git*" ".DS_Store"
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
 
-      - name: Subir ZIP como Release Asset
+      - name: Zip theme files
+        run: |
+          THEME_NAME="soymichelero"
+          ZIP_NAME="${THEME_NAME}-$(echo $GITHUB_REF | sed 's/refs\/tags\///').zip"
+          zip -r $ZIP_NAME . -x '*.git*' -x '.github/*'
+
+      - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v1
         with:
-          files: soymichelero-v${{ github.event.release.tag_name || 'main' }}.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          files: "soymichelero-*.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
