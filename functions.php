@@ -245,7 +245,7 @@ function soymichelero_check_for_updates($transient) {
         $new_version = str_replace('v', '', $tags_data[0]->name); // Elimina la 'v' si la hay
 
         // URL directa al ZIP del último tag
-        $zip_url = 'https://github.com/diegotrigal/soymichelerotheme/archive/refs/tags/' . $tags_data[0]->name . '.zip';
+        $zip_url = 'https://github.com/diegotrigal/soymichelerotheme/releases/download/' . $tags_data[0]->name . '/soymichelero-' . $tags_data[0]->name . '.zip';
 
         // Comparar la versión actual del tema con el último tag
         if (version_compare(wp_get_theme('soymichelero')->get('Version'), $new_version, '<')) {
