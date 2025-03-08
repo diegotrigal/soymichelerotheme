@@ -220,10 +220,11 @@ function load_language() {
 add_action('after_setup_theme', 'load_language');
 
 
-// Función para actualizar automáticamente el tema por medio de GitHub
+// Función para detectar nuevas versiones del tema en GitHub
 
-function soymichelero_check_for_updates( $transient ) {
-    if ( empty( $transient->checked ) ) {
+
+function soymichelero_check_for_updates($transient) {
+    if (empty($transient->checked)) {
         return $transient;
     }
 
@@ -231,28 +232,85 @@ function soymichelero_check_for_updates( $transient ) {
     $github_api_url = 'https://api.github.com/repos/diegotrigal/soymichelerotheme/releases/latest';
 
     // Obtiene los datos del último release en GitHub
-    $response = wp_remote_get( $github_api_url );
+    $response = wp_remote_get($github_api_url);
 
-    if ( is_wp_error( $response ) ) {
+    if (is_wp_error($response)) {
         return $transient; // Si hay error, no hacer nada
     }
 
-    $release_data = json_decode( wp_remote_retrieve_body( $response ) );
+    $release_data = json_decode(wp_remote_retrieve_body($response));
 
-    if ( isset( $release_data->tag_name ) ) {
-        $new_version = $release_data->tag_name;
+    if (isset($release_data->tag_name)) {
+        $new_version = str_replace('v', '', $release_data->tag_name); // Elimina la 'v' para evitar conflictos
 
-        // Comparar la versión actual del tema con la del release en GitHub
-        if ( version_compare( $transient->checked['soymichelero'], $new_version, '<' ) ) {
-            $transient->response['soymichelero'] = [
-                'theme'       => 'soymichelero',
-                'new_version' => $new_version,
-                'url'         => $release_data->html_url,
-                'package'     => $release_data->zipball_url, // URL directa al ZIP
-            ];
+        // Verifica que haya assets y que el primer asset tenga la URL de descarga
+        if (!empty($release_data->assets) && isset($release_data->assets[0]->browser_download_url)) {
+            $zip_url = $release_data->assets[0]->browser_download_url;
+
+            // Comparar la versión actual del tema con la del release en GitHub
+            if (version_compare(wp_get_theme('soymichelero')->get('Version'), $new_version, '<')) {
+                $transient->response['soymichelero'] = [
+                    'theme'       => 'soymichelero',
+                    'new_version' => $new_version,
+                    'url'         => $release_data->html_url,
+                    'package'     => $zip_url,
+                ];
+            }
+        } else {
+            // Si no se encuentra el ZIP, muestra un mensaje de error
+            add_action('admin_notices', function () {
+                echo '<div class="error"><p><strong>Error:</strong> No se encontró el archivo ZIP en el release. Revisa el release en GitHub.</p></div>';
+            });
         }
     }
 
     return $transient;
 }
-add_filter( 'site_transient_update_themes', 'soymichelero_check_for_updates' );
+add_filter('site_transient_update_themes', 'soymichelero_check_for_updates');
+
+// Función que dice la versión actual del tema y la versión encontrada en GitHub
+
+add_action('admin_notices', function() {
+
+	$token = defined('GITHUB_API_TOKEN') ? GITHUB_API_TOKEN : '';
+	
+    // Obtener la versión actual del tema
+    $current_version = wp_get_theme('soymichelero')->get('Version');
+
+    // URL del API de GitHub
+    $github_api_url = 'https://api.github.com/repos/diegotrigal/soymichelerotheme/releases/latest';
+
+    // Solicitud a la API de GitHub
+    $response = wp_remote_get('https://api.github.com/repos/diegotrigal/soymichelerotheme/releases/latest', [
+        'headers' => [
+            'Authorization' => 'token ' . $token
+        ]
+    ]);
+
+    if (is_wp_error($response)) {
+        echo '<div class="error"><p>Error al consultar la API de GitHub.</p></div>';
+        return;
+    }
+
+    $release_data = json_decode(wp_remote_retrieve_body($response));
+
+    if (isset($release_data->tag_name)) {
+        $new_version = str_replace('v', '', $release_data->tag_name); // Elimina la 'v' si la hay
+
+        // Mostrar ambas versiones
+        echo '<div class="updated">';
+        echo '<p><strong>Versión actual del tema:</strong> ' . esc_html($current_version) . '</p>';
+        echo '<p><strong>Versión detectada en GitHub:</strong> ' . esc_html($new_version) . '</p>';
+
+        // Indicar si hay una actualización disponible
+        if (version_compare($current_version, $new_version, '<')) {
+            echo '<p style="color: #d63638;"><strong>¡Hay una nueva versión disponible! 🚨</strong></p>';
+        } else {
+            echo '<p style="color: #28a745;"><strong>El tema está actualizado. ✅</strong></p>';
+        }
+
+        echo '</div>';
+    } else {
+        echo '<div class="error"><p>Error: No se encontró información de la versión en GitHub.</p></div>';
+    }
+});
