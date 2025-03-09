@@ -26,8 +26,8 @@ jobs:
           # Crear carpeta "soymichelero" dentro del workspace
           mkdir $THEME_NAME
 
-          # Copiar solo el contenido del tema, evitando carpetas duplicadas y no deseadas
-          rsync -av --progress . "$THEME_NAME/" --exclude="$THEME_NAME" --exclude=".git*" --exclude=".github"
+          # Copiar TODO el contenido del tema, incluyendo carpetas y subcarpetas
+          rsync -av --progress ./ "$THEME_NAME/" --exclude="/$THEME_NAME" --exclude=".git*" --exclude=".github"
 
           # Comprimir el contenido en formato correcto
           zip -r $ZIP_NAME $THEME_NAME
