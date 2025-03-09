@@ -32,7 +32,7 @@ jobs:
 
           # 📋 Log detallado del contenido que se copia con rsync
           echo "🚚 Copiando archivos al directorio temporal..."
-          rsync -av --progress . "$THEME_NAME/" --exclude=".git*" --exclude=".github"
+          rsync -av --progress . "$THEME_NAME" --exclude="./$THEME_NAME" --exclude=".git*" --exclude=".github"
 
           # 📋 Mostrar ESTRUCTURA del directorio copiado
           echo "🔍 ESTRUCTURA DEL DIRECTORIO COPIADO:"
