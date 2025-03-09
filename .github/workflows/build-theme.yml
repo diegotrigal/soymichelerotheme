@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 👈 Asegura que se clone TODO el historial y archivos
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
@@ -32,7 +34,12 @@ jobs:
 
           # 📋 Log detallado del contenido que se copia con rsync
           echo "🚚 Copiando archivos al directorio temporal..."
-          rsync -av --progress ./* "$THEME_NAME" --exclude="./$THEME_NAME" --exclude=".git*" --exclude=".github"
+          rsync -av --progress . "$THEME_NAME/" \
+            --exclude="./$THEME_NAME" \
+            --exclude=".git*" \
+            --exclude=".github" \
+            --exclude=".vscode" \
+            --exclude="node_modules"
 
           # 📋 Mostrar ESTRUCTURA del directorio copiado
           echo "🔍 ESTRUCTURA DEL DIRECTORIO COPIADO:"
