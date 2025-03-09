@@ -1,0 +1,24 @@
+# Ignorar todo lo que no sea el tema
+# *
+# !*/
+# !/assets/
+# !/complete_block.php
+# !/faq-page.php
+# !/finalizar-compra.php
+# !/footer.php
+# !/functions.php
+# !/header.php
+# !/index.php
+# !/languages/
+# !/mi-cuenta.php
+# !/micheladamix.php
+# !/mixers.php
+# !/my-cart copy.php
+# !/my-cart.php
+# !/page-faq.php
+# !/page.php
+# !/rimmers.php
+# !/screenshot.png
+# !/soymichelero.com
+# !/style.css
+# !/woocommerce/

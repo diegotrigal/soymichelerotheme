@@ -1,0 +1,68 @@
+.main-bg {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(circle, rgba(247,0,232,1) 35%, rgba(120,60,116,1) 100%);
+}
+
+.main-overlay {
+    background-image: url('../common/radial.png'); /* Mantengo la ruta que mencionaste como correcta */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.main-content {
+    position: relative;
+    height: 100vh;
+    width: 400px;
+    z-index: 2; /* Este z-index asegura que esté frente al overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.main-content img{
+    width: 350px;
+}
+
+.main-content h1, h2, h3, p{
+    font-family: "poster", sans-serif;font-weight: 400;
+    color: #fff8dd;
+}
+
+.esp{
+    font-size:1.3rem;
+    text-align: justify;
+}
+
+.eng{
+    font-size:1rem;
+    text-align: justify;
+}
+
+@media (max-width:520px){
+    .main-content{
+        width: 360px;
+    }
+}
+
+.main-content a{
+    font-size: 4.5rem;
+    color: white;
+}
+
+.main-content a:hover{
+    text-decoration: underline;
+}

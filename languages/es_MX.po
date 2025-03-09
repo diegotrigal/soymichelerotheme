@@ -1,0 +1,1766 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Soy Michelero\n"
+"POT-Creation-Date: 2024-09-28 19:43-0600\n"
+"PO-Revision-Date: 2024-09-28 19:56-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: footer.php:19 footer.php:52
+msgid "Términos y condiciones"
+msgstr "TÉRMINOS Y CONDICIONES"
+
+#: functions.php:187
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:188
+msgid "Main Menu"
+msgstr ""
+
+#: header.php:7
+#, fuzzy
+msgid "Soy Michelero 2024"
+msgstr "Soy Michelero 2024"
+
+#: header.php:28 woocommerce/auth/form-login.php:49
+#: woocommerce/global/form-login.php:51 woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: header.php:57
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:64
+msgid "INICIO"
+msgstr "INICIO"
+
+#: header.php:68
+#, fuzzy
+msgid "ACERCA"
+msgstr "ACERCA"
+
+#: header.php:72
+#, fuzzy
+msgid "PRODUCTOS"
+msgstr "PRODUCTOS"
+
+#: header.php:80
+#, fuzzy
+msgid "DISTRIBUIDORES"
+msgstr "DISTRIBUIDORES"
+
+#: header.php:84
+#, fuzzy
+msgid "TIENDA"
+msgstr "TIENDA"
+
+#: header.php:88
+#, fuzzy
+msgid "F.A.Q"
+msgstr "F.A.Q"
+
+#: index.php:7
+#, fuzzy
+msgid ""
+"Your browser does not support the video tag. Try using Google Chrome / Brave "
+"Browser / Firefox."
+msgstr ""
+"Su navegador no soporta la etiqueta de vídeo. Pruebe a utilizar Google "
+"Chrome / Brave Browser / Firefox."
+
+#: index.php:10
+#, fuzzy
+msgid "Bienvenido Michelero!"
+msgstr "¡Bienvenido Michelero!"
+
+#: index.php:12
+#, fuzzy
+msgid ""
+"Estás muy cerca de disfrutar <br> momentos llenos de alegría con Soy "
+"Michelero."
+msgstr ""
+"Estás muy cerca de disfrutar <br> momentos llenos de alegría con Soy "
+"Michelero."
+
+#: index.php:15
+msgid "Start!"
+msgstr "¡Comenzar!"
+
+#: index.php:29
+#, fuzzy
+msgid "Sobre nosotros"
+msgstr "Sobre nosotros"
+
+#: index.php:31
+#, fuzzy
+msgid ""
+"Soy Michelero LLC es una empresa dedicada a elaborar productos de CALIDAD. "
+"Garantizamos una experiencia inolvidable al disfrutar tu michelada. Nuestro "
+"objetivo es transmitir el amor y orgullo por nuestras raíces mexicanas."
+msgstr ""
+"Soy Michelero LLC es una empresa dedicada a elaborar productos de CALIDAD. "
+"Garantizamos una experiencia inolvidable al disfrutar tu michelada. Nuestro "
+"objetivo es transmitir el amor y orgullo por nuestras raíces mexicanas."
+
+#: index.php:35
+#, fuzzy
+msgid ""
+"Estamos comprometidos en crear momentos de alegría y conexión al ofrecer "
+"mixers y escarchadores que reflejan la autenticidad y calidez de nuestra "
+"cultura, permitiendo que nuestros clientes disfruten y compartan su herencia "
+"en cada sorbo."
+msgstr ""
+"Estamos comprometidos en crear momentos de alegría y conexión al ofrecer "
+"mezcladores y escarchadores que reflejan la autenticidad y calidez de "
+"nuestra cultura, permitiendo que nuestros clientes disfruten y compartan su "
+"herencia en cada sorbo."
+
+#: index.php:49
+#, fuzzy
+msgid "¡Conoce a Micheleitor!"
+msgstr "¡Conoce a Micheleitor!"
+
+#: index.php:51
+#, fuzzy
+msgid ""
+"Micheleitor es un jaguar mexicano, símbolo de fuerza y orgullo, que "
+"representa la autenticidad y tradición de Soy Michelero LLC."
+msgstr ""
+"Micheleitor es un jaguar mexicano, símbolo de fuerza y orgullo, que "
+"representa la autenticidad y tradición de Soy Michelero LLC."
+
+#: index.php:73
+#, fuzzy
+msgid "Nuestros Productos"
+msgstr "Nuestros Productos"
+
+#: index.php:90
+#, fuzzy
+msgid "Escarchadores"
+msgstr "Escarchadores"
+
+#: index.php:92
+#, fuzzy
+msgid ""
+"Nuestra salsa y polvo para escarchar harán que tus micheladas o bebidas "
+"brillen al máximo."
+msgstr ""
+"Nuestra salsa y polvo para escarchar harán que tus micheladas o bebidas "
+"brillen al máximo."
+
+#: index.php:107
+#, fuzzy
+msgid "Drink Mixers"
+msgstr "Mezcladores"
+
+#: index.php:109
+#, fuzzy
+msgid ""
+"¡Ideal para micheladas, margaritas, sodas italianas y todo tipo de bebidas "
+"con o sin alcohol!"
+msgstr ""
+"¡Ideal para micheladas, margaritas, sodas italianas y todo tipo de bebidas "
+"con o sin alcohol!"
+
+#: index.php:125
+#, fuzzy
+msgid "Michelada Mix"
+msgstr "Michelada Mix"
+
+#: index.php:127
+#, fuzzy
+msgid ""
+"El mix perfecto para hacer de tus micheladas una delicia. También son "
+"excelentes para Bloody Marys."
+msgstr ""
+"El mix perfecto para hacer de tus micheladas una delicia. También son "
+"excelentes para Bloody Marys."
+
+#: index.php:140
+#, fuzzy
+msgid "Instrucciones"
+msgstr "Instrucciones"
+
+#: index.php:146
+#, fuzzy
+msgid "Escarcha un vaso o tarro con nuestro escarchador en salsa"
+msgstr "Escarcha un vaso o tarro con nuestro escarchador en salsa"
+
+#: index.php:151
+#, fuzzy
+msgid "Pásalo por nuestro escarchador en polvo"
+msgstr "Pásalo por nuestro buscador en polvo"
+
+#: index.php:155
+#, fuzzy
+msgid "Agrega hielo (altamente recomendado)"
+msgstr "Agrega hielo (altamente recomendado)"
+
+#: index.php:161
+#, fuzzy, no-php-format
+msgid ""
+"Llena el 10% de tu tarro o vaso con el sabor de SOY MICHELERO de tu "
+"preferencia y el resto con tu bebida favorita"
+msgstr ""
+"Llena el 10% de tu tarro o vaso con el sabor de SOY MICHELERO de tu "
+"preferencia y el resto con tu bebida favorita"
+
+#: index.php:167
+#, fuzzy
+msgid "Puedes elegir entre cerveza o refresco para bebidas sin alcohol"
+msgstr "Puedes elegir entre cerveza o refresco para bebidas sin alcohol"
+
+#: index.php:171
+#, fuzzy
+msgid "¡Mezcla y disfruta!"
+msgstr "¡Mezcla y disfruta!"
+
+#: index.php:185
+#, fuzzy
+msgid "Dealers"
+msgstr "Distribuidores"
+
+#: index.php:189
+#, fuzzy
+msgid ""
+"¡Estamos emocionados de que ahora puedas encontrar nuestros productos en "
+"línea! Pero lo mejor de todo es que también puedes convertirte en "
+"distribuidor en tu área. ¡Así los Micheleros nos tendrán aún más cerca! ¿Te "
+"interesa convertirte en distribuidor?"
+msgstr ""
+"¡Estamos emocionados de que ahora puedas encontrar nuestros productos en "
+"línea! Pero lo mejor de todo es que también puedes convertirte en "
+"distribuidor en tu zona. ¡Así los Micheleros nos tendrán aún más cerca! ¿Te "
+"interesa convertirte en distribuidor?"
+
+#: ⁨my-cart copy.php⁩:26 my-cart.php:21
+msgid "Remove"
+msgstr ""
+
+#: ⁨my-cart copy.php⁩:27 my-cart.php:22
+msgid "Thumbnail"
+msgstr ""
+
+#: ⁨my-cart copy.php⁩:28 ⁨my-cart copy.php⁩:69 my-cart.php:23 my-cart.php:64
+#: woocommerce/cart/cart.php:18 woocommerce/cart/cart.php:75
+#: woocommerce/checkout/form-pay.php:27
+#: woocommerce/checkout/review-order.php:23
+#: woocommerce/emails/email-order-details.php:42
+#: woocommerce/order/order-details.php:56
+msgid "Product"
+msgstr "Producto"
+
+#: ⁨my-cart copy.php⁩:29 ⁨my-cart copy.php⁩:79 my-cart.php:24 my-cart.php:74
+#: woocommerce/cart/cart.php:19 woocommerce/cart/cart.php:100
+#: woocommerce/emails/email-order-details.php:44
+msgid "Price"
+msgstr "Precio"
+
+#: ⁨my-cart copy.php⁩:30 ⁨my-cart copy.php⁩:82 my-cart.php:25 my-cart.php:77
+#: woocommerce/cart/cart.php:20 woocommerce/cart/cart.php:106
+#: woocommerce/emails/email-order-details.php:43
+#: woocommerce/global/quantity-input.php:24
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: ⁨my-cart copy.php⁩:31 ⁨my-cart copy.php⁩:104 my-cart.php:26 my-cart.php:99
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+#: woocommerce/cart/cart.php:21 woocommerce/cart/cart.php:132
+#: woocommerce/checkout/review-order.php:24
+#: woocommerce/checkout/review-order.php:56
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#. translators: %s is the product name
+#: ⁨my-cart copy.php⁩:51 my-cart.php:46 woocommerce/cart/cart.php:54
+#: woocommerce/cart/mini-cart.php:53
+#, php-format
+msgid "Remove %s from cart"
+msgstr "Eliminar %s del carrito"
+
+#: ⁨my-cart copy.php⁩:117 my-cart.php:112 woocommerce/cart/cart.php:150
+#: woocommerce/checkout/form-coupon.php:34
+msgid "Coupon:"
+msgstr "Cupón:"
+
+#: ⁨my-cart copy.php⁩:120 my-cart.php:115 woocommerce/cart/cart.php:150
+#: woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "Código del cupón"
+
+#: ⁨my-cart copy.php⁩:122 my-cart.php:117 woocommerce/cart/cart.php:150
+#: woocommerce/checkout/form-coupon.php:39
+msgid "Apply coupon"
+msgstr "Aplicar cupón"
+
+#: ⁨my-cart copy.php⁩:128 my-cart.php:123 woocommerce/cart/cart.php:155
+msgid "Update cart"
+msgstr "Actualizar carrito"
+
+#: page-faq.php:51
+#, fuzzy
+msgid "No hay preguntas frecuentes disponibles en esta categoría."
+msgstr "No hay preguntas frecuentes disponibles en esta categoría."
+
+#: page-faq.php:55
+#, fuzzy
+msgid "No hay preguntas frecuentes disponibles."
+msgstr "No hay preguntas frecuentes disponibles."
+
+#. translators: %s: app name
+#: woocommerce/auth/form-grant-access.php:26 woocommerce/auth/form-login.php:25
+#, php-format
+msgid "%s would like to connect to your store"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:35
+#, php-format
+msgid "This will give \"%1$s\" %2$s access which will allow it to:"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:48
+#, fuzzy, php-format
+msgid ""
+"Approving will share credentials with %s. Do not proceed if this looks "
+"suspicious in any way."
+msgstr ""
+"Al aprobar se compartirán las credenciales con %s. No continúe si esto "
+"parece sospechoso de alguna manera."
+
+#: woocommerce/auth/form-grant-access.php:57
+#, php-format
+msgid "Logged in as %s"
+msgstr "Has iniciado sesión como %s"
+
+#: woocommerce/auth/form-grant-access.php:59
+msgid "Logout"
+msgstr "Salir"
+
+#: woocommerce/auth/form-grant-access.php:64
+msgid "Approve"
+msgstr "Aprobar"
+
+#: woocommerce/auth/form-grant-access.php:65
+msgid "Deny"
+msgstr "Denegar"
+
+#. translators: %1$s: app name, %2$s: URL
+#: woocommerce/auth/form-login.php:34
+#, php-format
+msgid ""
+"To connect to %1$s you need to be logged in. Log in to your store below, or "
+"<a href=\"%2$s\">cancel and return to %1$s</a>"
+msgstr ""
+"Para conectarse a%1$s es necesario iniciar sesión. Inicie sesión en su "
+"tienda a continuación, o < a href = \"%2$s\" > cancelar y volver a%1$s </a>"
+
+#: woocommerce/auth/form-login.php:40 woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr "Nombre de usuario o dirección de correo electrónico"
+
+#: woocommerce/auth/form-login.php:40 woocommerce/auth/form-login.php:44
+#: woocommerce/global/form-login.php:34 woocommerce/global/form-login.php:38
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:79
+#: woocommerce/myaccount/form-login.php:86
+#: woocommerce/myaccount/form-login.php:93
+#: woocommerce/myaccount/form-lost-password.php:28
+#: woocommerce/myaccount/form-reset-password.php:28
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Required"
+msgstr "Requerido"
+
+#: woocommerce/auth/form-login.php:44 woocommerce/global/form-login.php:38
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr "Contraseña"
+
+#: woocommerce/auth/header.php:27
+msgid "Application authentication request"
+msgstr "Solicitud de autenticación de aplicaciones"
+
+#: woocommerce/auth/header.php:32
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: woocommerce/block-notices/error.php:36
+msgid "The following problems were found:"
+msgstr "Encontramos los siguientes problemas:"
+
+#: woocommerce/cart/cart-empty.php:35
+msgid "Return to shop"
+msgstr "Volver a la galería"
+
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr "Envío a %s."
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr "Cambiar dirección"
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr "Las opciones de envío se actualizarán durante el proceso de pago."
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr "Los gastos de envío se calculan durante el proceso de pago."
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr "Ingrese su dirección para ver las opciones de envío."
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"No hay opciones de envío disponibles. Asegúrese de que su dirección se ha "
+"introducido correctamente, o póngase en contacto con nosotros si necesita "
+"ayuda."
+
+#: woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr "No se encontraron opciones de envío para %s."
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr "Envía a una dirección diferente"
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr "Total"
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr "Envío"
+
+#. translators: %s location.
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(estimado para %s)"
+
+#: woocommerce/cart/cart-totals.php:98 woocommerce/cart/cart-totals.php:99
+#: woocommerce/checkout/review-order.php:103
+#: woocommerce/myaccount/my-orders.php:17
+#: woocommerce/order/order-details.php:57
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/cart/cart.php:16
+msgid "Remove item"
+msgstr "Eliminar elemento"
+
+#: woocommerce/cart/cart.php:17
+msgid "Thumbnail image"
+msgstr "Imagen en miniatura"
+
+#: woocommerce/cart/cart.php:95
+msgid "Available on backorder"
+msgstr "Disponible por pedido pendiente"
+
+#: woocommerce/cart/cross-sells.php:24
+msgid "You may be interested in&hellip;"
+msgstr "También te puede interesar&hellip;"
+
+#. translators: %s is the product name
+#: woocommerce/cart/mini-cart.php:58
+#, fuzzy, php-format
+msgid "&ldquo;%s&rdquo; has been removed from your cart"
+msgstr "\"%s\" ha sido eliminado de tu carrito"
+
+#: woocommerce/cart/mini-cart.php:100
+msgid "No products in the cart."
+msgstr "No hay productos en el carrito."
+
+#: woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to checkout"
+msgstr "Finalizar compra"
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr "Calcular envío"
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Country / region:"
+msgstr "País:"
+
+#: woocommerce/cart/shipping-calculator.php:32
+msgid "Select a country / region&hellip;"
+msgstr "Seleccione un país / región&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:57
+#: woocommerce/cart/shipping-calculator.php:70
+msgid "State / County"
+msgstr "Estado"
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:69
+msgid "State / County:"
+msgstr "Estado:"
+
+#: woocommerce/cart/shipping-calculator.php:58
+msgid "Select an option&hellip;"
+msgstr "Seleccione una opción&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:79
+msgid "City:"
+msgstr "Ciudad:"
+
+#: woocommerce/cart/shipping-calculator.php:80
+msgid "City"
+msgstr "Ciudad"
+
+#: woocommerce/cart/shipping-calculator.php:86
+msgid "Postcode / ZIP:"
+msgstr "Código postal:"
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Postcode / ZIP"
+msgstr "Código postal"
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Update"
+msgstr "Actualizar"
+
+#: woocommerce/checkout/cart-errors.php:21
+msgid ""
+"There are some issues with the items in your cart. Please go back to the "
+"cart page and resolve these issues before checking out."
+msgstr ""
+"Hay algunos problemas con los artículos en su carrito. Por favor, vuelva a "
+"la página de carrito y resuelva estos problemas antes de revisar."
+
+#: woocommerce/checkout/cart-errors.php:25
+msgid "Return to cart"
+msgstr "Volver a descargas"
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr "Facturación y envío"
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr "Detalles de Facturación"
+
+#: woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr "¿Crear una cuenta?"
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Debes iniciar sesión para realizar el pago."
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr "Su pedido"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Have a coupon?"
+msgstr "¿Tienes un cupón?"
+
+#: woocommerce/checkout/form-coupon.php:26
+msgid "Click here to enter your code"
+msgstr "Haz clic aquí para introducir tu código"
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "Si tienes un código de cupón, aplícalo a continuación."
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr "¿Cliente existente?"
+
+#: woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr "Click aqui para iniciar sesiòn"
+
+#: woocommerce/checkout/form-login.php:32
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+"Si ya eres cliente, por favor, rellena tus datos a continuación. Si eres un "
+"nuevo cliente, continúa en la sección de datos de compra."
+
+#: woocommerce/checkout/form-pay.php:28
+msgid "Qty"
+msgstr "Cantidad"
+
+#: woocommerce/checkout/form-pay.php:29
+msgid "Totals"
+msgstr "Totales"
+
+#: woocommerce/checkout/form-pay.php:89
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Lo sentimos, parece que no existen métodos de pago disponibles para su "
+"ubicación. Por favor, póngase en contacto con nosotros si necesita ayuda o "
+"desea hacer arreglos alternativos."
+
+#: woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr "¿Envia a una direccion diferente?"
+
+#: woocommerce/checkout/form-shipping.php:57
+#: woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr "Información adicional"
+
+#: woocommerce/checkout/form-verify-email.php:29
+msgid ""
+"We were unable to verify the email address you provided. Please try again."
+msgstr ""
+"No hemos podido verificar el correo que proporcionaste. Por favor intenta de "
+"nuevo."
+
+#. translators: 1: opening login link 2: closing login link
+#: woocommerce/checkout/form-verify-email.php:36
+#, php-format
+msgid ""
+"To view this page, you must either %1$slogin%2$s or verify the email address "
+"associated with the order."
+msgstr ""
+"Para ver esta página, debes %1$siniciar sesión%2$s o verificar la dirección "
+"de correo electrónico asociada al pedido."
+
+#: woocommerce/checkout/form-verify-email.php:44
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: woocommerce/checkout/form-verify-email.php:50
+msgid "Verify"
+msgstr "Verificar"
+
+#: woocommerce/checkout/order-receipt.php:25
+#: woocommerce/checkout/thankyou.php:49
+msgid "Order number:"
+msgstr "Orden número:"
+
+#: woocommerce/checkout/order-receipt.php:29
+#: woocommerce/checkout/thankyou.php:54
+msgid "Date:"
+msgstr "Fecha:"
+
+#: woocommerce/checkout/order-receipt.php:33
+#: woocommerce/checkout/thankyou.php:66
+msgid "Total:"
+msgstr "Total:"
+
+#: woocommerce/checkout/order-receipt.php:38
+#: woocommerce/checkout/thankyou.php:72
+msgid "Payment method:"
+msgstr "Método de pago:"
+
+#: woocommerce/checkout/order-received.php:35
+msgid "Thank you. Your order has been received."
+msgstr "Gracias. Su pedido ha sido recibido."
+
+#: woocommerce/checkout/payment.php:34
+#, fuzzy
+msgid ""
+"Sorry, it seems that there are no available payment methods. Please contact "
+"us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+"Lo sentimos, parece que no hay métodos de pago disponibles. Póngase en "
+"contacto con nosotros si necesita ayuda o desea realizar otros trámites."
+
+#: woocommerce/checkout/payment.php:34
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Por favor, complete sus datos para ver los métodos de pago disponibles."
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+#: woocommerce/checkout/payment.php:44
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Debido a que tu navegador no es compatible con JavaScript o lo tiene "
+"desactivado, por favor, asegúrate de hacer clic en el botón %1$sActualizar "
+"totales%2$s antes de realizar tu adquisición. De no hacerlo, se te podría "
+"cobrar más de la cantidad indicada arriba."
+
+#: woocommerce/checkout/payment.php:46
+msgid "Update totals"
+msgstr "Actualizar totales"
+
+#: woocommerce/checkout/terms.php:31
+msgid "required"
+msgstr "requerido"
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Lamentablemente, su pedido no puede procesarse ya que el banco / comerciante "
+"de origen ha rechazado su transacción. Intente su compra nuevamente."
+
+#: woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr "Pagar"
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: woocommerce/checkout/thankyou.php:60
+msgid "Email:"
+msgstr "Email:"
+
+#: woocommerce/content-widget-price-filter.php:27
+#: woocommerce/content-widget-price-filter.php:28
+msgid "Min price"
+msgstr "Precio mín"
+
+#: woocommerce/content-widget-price-filter.php:29
+#: woocommerce/content-widget-price-filter.php:30
+msgid "Max price"
+msgstr "Precio max"
+
+#. translators: Filter: verb "to filter"
+#: woocommerce/content-widget-price-filter.php:32
+msgid "Filter"
+msgstr "Filtro"
+
+#: woocommerce/content-widget-price-filter.php:34
+msgid "Price:"
+msgstr "Precio:"
+
+#. translators: %s: Comment author.
+#: woocommerce/content-widget-reviews.php:38
+#, php-format
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: %1$s: Order number, %2$s: Customer full name.
+#. translators: %1$s: Order number. %2$s: Customer full name
+#: woocommerce/emails/admin-cancelled-order.php:28
+#: woocommerce/emails/plain/admin-cancelled-order.php:25
+#, php-format
+msgid ""
+"Notification to let you know &mdash; order #%1$s belonging to %2$s has been "
+"cancelled:"
+msgstr ""
+"Notificación para informarte — el pedido #%1$s perteneciente a %2$s ha sido "
+"cancelado:"
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: woocommerce/emails/admin-failed-order.php:28
+#: woocommerce/emails/plain/admin-failed-order.php:25
+#, php-format
+msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
+msgstr "El pago por orden #%1$s de%2$s ha fallado. La orden fue la siguiente:"
+
+#. translators: %s: Customer billing full name
+#: woocommerce/emails/admin-new-order.php:26
+#: woocommerce/emails/plain/admin-new-order.php:25
+#, php-format
+msgid "You’ve received the following order from %s:"
+msgstr "Ha recibido el siguiente pedido de %s:"
+
+#. translators: %s: Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#. translators: %s: Customer username
+#. translators: %s: Customer first name
+#. translators: %s: Customer username
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/customer-invoice.php:30
+#: woocommerce/emails/customer-new-account.php:23
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/customer-on-hold-order.php:26
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/customer-refunded-order.php:26
+#: woocommerce/emails/customer-reset-password.php:27
+#: woocommerce/emails/plain/customer-completed-order.php:25
+#: woocommerce/emails/plain/customer-invoice.php:25
+#: woocommerce/emails/plain/customer-new-account-blocks.php:19
+#: woocommerce/emails/plain/customer-new-account.php:25
+#: woocommerce/emails/plain/customer-note.php:25
+#: woocommerce/emails/plain/customer-on-hold-order.php:25
+#: woocommerce/emails/plain/customer-processing-order.php:25
+#: woocommerce/emails/plain/customer-refunded-order.php:25
+#: woocommerce/emails/plain/customer-reset-password.php:25
+#, php-format
+msgid "Hi %s,"
+msgstr "Hola %s,"
+
+#. translators: %s: Site title
+#: woocommerce/emails/customer-completed-order.php:29
+#: woocommerce/emails/plain/customer-completed-order.php:27
+msgid "We have finished processing your order."
+msgstr "Se ha terminado de tramitar su pedido."
+
+#. translators: %1$s Site title, %2$s Order pay link
+#. translators: %1$s: Site title, %2$s: Order pay link
+#: woocommerce/emails/customer-invoice.php:38
+#: woocommerce/emails/plain/customer-invoice.php:31
+#, php-format
+msgid ""
+"An order has been created for you on %1$s. Your invoice is below, with a "
+"link to make payment when you’re ready: %2$s"
+msgstr ""
+"Se ha creado un pedido para usted en%1$s. Su factura está abajo, con un "
+"enlace para hacer el pago cuando esté listo:%2$s"
+
+#: woocommerce/emails/customer-invoice.php:46
+msgid "Pay for this order"
+msgstr "Pagar por esta orden"
+
+#. translators: %s Order date
+#. translators: %s: Order date
+#: woocommerce/emails/customer-invoice.php:55
+#: woocommerce/emails/plain/customer-invoice.php:39
+#, php-format
+msgid "Here are the details of your order placed on %s:"
+msgstr "Aquí están los detalles de su pedido colocado en %s:"
+
+#. translators: %s: Customer username
+#: woocommerce/emails/customer-new-account-blocks.php:23
+#, php-format
+msgid "Hello %s,"
+msgstr "Hola %s,"
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: woocommerce/emails/customer-new-account-blocks.php:25
+#: woocommerce/emails/customer-new-account.php:25
+#: woocommerce/emails/plain/customer-new-account-blocks.php:21
+#: woocommerce/emails/plain/customer-new-account.php:27
+#, php-format
+msgid ""
+"Thanks for creating an account on %1$s. Your username is %2$s. You can "
+"access your account area to view orders, change your password, and more at: "
+"%3$s"
+msgstr ""
+"Gracias por crear tu cuenta en %1$s. Tu nombre de usuario es %2$s. Puedes "
+"acceder al área de tu cuenta para ver pedidos, cambiar tu contraseña y más "
+"en: %3$s"
+
+#: woocommerce/emails/customer-new-account-blocks.php:27
+#: woocommerce/emails/customer-new-account.php:28
+#, fuzzy
+msgid "Click here to set your new password."
+msgstr "Haga clic aquí para establecer su nueva contraseña."
+
+#: woocommerce/emails/customer-note.php:29
+#: woocommerce/emails/plain/customer-note.php:26
+msgid "The following note has been added to your order:"
+msgstr "La siguiente nota se ha añadido a su pedido:"
+
+#: woocommerce/emails/customer-note.php:33
+#: woocommerce/emails/plain/customer-note.php:34
+msgid "As a reminder, here are your order details:"
+msgstr "Como recordatorio, aquí tienes los detalles del pago:"
+
+#: woocommerce/emails/customer-on-hold-order.php:27
+#: woocommerce/emails/plain/customer-on-hold-order.php:26
+msgid ""
+"Thanks for your order. It’s on-hold until we confirm that payment has been "
+"received."
+msgstr ""
+"Gracias por tu pedido. Está en espera hasta que confirmemos que se ha "
+"recibido el pago."
+
+#. translators: %s: Order number
+#: woocommerce/emails/customer-processing-order.php:30
+#: woocommerce/emails/plain/customer-processing-order.php:27
+#, php-format
+msgid ""
+"Just to let you know &mdash; we've received your order #%s, and it is now "
+"being processed:"
+msgstr ""
+"Gracias por tu pedido, abajo encontrarás los detalles del mismo. Una vez "
+"enviado recibirás los datos de rastreo por correo"
+
+#. translators: %s: Site title
+#: woocommerce/emails/customer-refunded-order.php:32
+#: woocommerce/emails/plain/customer-refunded-order.php:28
+#, php-format
+msgid ""
+"Your order on %s has been partially refunded. There are more details below "
+"for your reference:"
+msgstr ""
+"Su pedido en %s ha sido parcialmente reembolsado. Hay más detalles abajo "
+"para su referencia:"
+
+#. translators: %s: Site title
+#: woocommerce/emails/customer-refunded-order.php:35
+#: woocommerce/emails/plain/customer-refunded-order.php:31
+#, php-format
+msgid ""
+"Your order on %s has been refunded. There are more details below for your "
+"reference:"
+msgstr ""
+"Su pedido en %s ha sido reembolsado. Hay más detalles abajo para su "
+"referencia:"
+
+#. translators: %s: Store name
+#: woocommerce/emails/customer-reset-password.php:29
+#: woocommerce/emails/plain/customer-reset-password.php:27
+#, php-format
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr ""
+"Alguien ha solicitado una nueva contraseña para la siguiente cuenta en %s:"
+
+#. translators: %s: Customer username
+#: woocommerce/emails/customer-reset-password.php:31
+#: woocommerce/emails/plain/customer-reset-password.php:29
+#, php-format
+msgid "Username: %s"
+msgstr "Nombre de usuario: %s"
+
+#: woocommerce/emails/customer-reset-password.php:32
+#: woocommerce/emails/plain/customer-reset-password.php:30
+msgid ""
+"If you didn't make this request, just ignore this email. If you'd like to "
+"proceed:"
+msgstr ""
+"Si usted no hizo esta petición, apenas ignore este email. Si usted desea "
+"proceder:"
+
+#: woocommerce/emails/customer-reset-password.php:35
+msgid "Click here to reset your password"
+msgstr "Haga clic aquí para restablecer su contraseña"
+
+#: woocommerce/emails/email-addresses.php:29
+#: woocommerce/emails/plain/email-addresses.php:20
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr "Dirección de Facturación"
+
+#: woocommerce/emails/email-addresses.php:32
+#: woocommerce/order/order-details-customer.php:34
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/emails/email-addresses.php:56
+#: woocommerce/emails/plain/email-addresses.php:47
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:61
+msgid "Shipping address"
+msgstr "Dirección de Envío"
+
+#: woocommerce/emails/email-customer-details.php:24
+#: woocommerce/emails/plain/email-customer-details.php:22
+msgid "Customer details"
+msgstr "Detalles del cliente"
+
+#: woocommerce/emails/email-downloads.php:22
+#: woocommerce/emails/plain/email-downloads.php:20
+#: woocommerce/order/order-downloads.php:24
+msgid "Downloads"
+msgstr "Descargas"
+
+#: woocommerce/emails/email-downloads.php:58
+#: woocommerce/emails/plain/email-downloads.php:40
+#: woocommerce/order/order-downloads.php:62
+msgid "Never"
+msgstr "Nunca"
+
+#. translators: %s: Order ID.
+#: woocommerce/emails/email-order-details.php:34
+#, php-format
+msgid "[Order #%s]"
+msgstr "[Pedido #%s]"
+
+#: woocommerce/emails/email-order-details.php:80
+#: woocommerce/emails/plain/email-order-details.php:46
+#: woocommerce/order/order-details.php:98
+msgid "Note:"
+msgstr "Nota:"
+
+#. translators: URL follows
+#: woocommerce/emails/plain/customer-new-account-blocks.php:24
+#: woocommerce/emails/plain/customer-new-account.php:32
+#, fuzzy
+msgid "To set your password, visit the following address: "
+msgstr "Para establecer su contraseña, visite la siguiente dirección:"
+
+#. translators: %1$s: Order ID. %2$s: Order date
+#: woocommerce/emails/plain/email-order-details.php:23
+#, php-format
+msgid "[Order #%1$s] (%2$s)"
+msgstr "[Pago #%1$s] (%2$s)"
+
+#. translators: %s: Order link.
+#: woocommerce/emails/plain/email-order-details.php:51
+#, php-format
+msgid "View order: %s"
+msgstr "Ver pedido: %s"
+
+#: woocommerce/global/form-login.php:34
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr "Nombre de usuario o correo electrónico"
+
+#: woocommerce/global/form-login.php:47 woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr "Recuérdame"
+
+#: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr "¿Perdiste tu contraseña?"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:24
+#, php-format
+msgid "%s quantity"
+msgstr "%s cantidad"
+
+#: woocommerce/global/quantity-input.php:44
+msgid "Product quantity"
+msgstr "La cantidad del producto debe ser un flotador positivo."
+
+#: woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "No se encontraron productos que coincidan con su selección."
+
+#: woocommerce/loop/orderby.php:24
+msgid "Shop order"
+msgstr "Orden de compra"
+
+#: woocommerce/loop/pagination.php:31
+#, fuzzy
+msgid "Product Pagination"
+msgstr "Paginación de productos"
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr "Mostrando el único resultado"
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:31
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Mostrar todos %d resultado"
+msgstr[1] "Mostrando todos los %d resultados"
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:36
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] "Mostrar resultado %1$d-%2$d de %3$d"
+msgstr[1] "Mostrando %1$d&ndash;%2$d de  %3$d resultados"
+
+#: woocommerce/loop/sale-flash.php:27
+#: woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr "¡Venta!"
+
+#. translators: 1: user display name 2: logout url
+#: woocommerce/myaccount/dashboard.php:35
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr "Hola %1$s (¿no eres %1$s? <a href=\"%2$s\"> Cerrar sesión </a>)"
+
+#. translators: 1: Orders URL 2: Address URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:45
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a "
+"href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"Desde el escritorio de tu cuenta puedes ver tus <a href=\"%1$s\">pedidos "
+"recientes</a>, gestionar tu <a href=\"%2$s\">dirección de pago</a> y <a "
+"href=\"%3$s\">editar tu contraseña y los detalles de tu cuenta</a>."
+
+#. translators: 1: Orders URL 2: Addresses URL 3: Account URL.
+#: woocommerce/myaccount/dashboard.php:48
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+"Desde el panel de su cuenta puede ver su < a href = \"%1$s\" > pedidos "
+"recientes </a>, administre su < a href = \"%2$s\" > direcciones de envío y "
+"facturación </a>, y < a href = \"%3$s\" > edite su contraseña y los detalles "
+"de la cuenta </a>."
+
+#: woocommerce/myaccount/downloads.php:42
+msgid "No downloads available yet."
+msgstr "Todavía no hay descargas disponibles."
+
+#: woocommerce/myaccount/downloads.php:42 woocommerce/myaccount/orders.php:114
+msgid "Browse products"
+msgstr "Adquirir una suscripción"
+
+#: woocommerce/myaccount/form-add-payment-method.php:54
+#: woocommerce/myaccount/payment-methods.php:77
+msgid "Add payment method"
+msgstr "Añadir método de pago"
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+msgid ""
+"New payment methods can only be added during checkout. Please contact us if "
+"you require assistance."
+msgstr ""
+"Los nuevos métodos de pago sólo se pueden agregar durante la comprobación. "
+"Póngase en contacto con nosotros si necesita ayuda."
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr "Nombre"
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr "Apellido"
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr "Nombre para mostrar"
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+"Esta será la forma en que se mostrará tu nombre en la sección de Mi Cuenta y "
+"en los comentarios"
+
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "Password change"
+msgstr "Cambiar password"
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Contraseña actual (dejar en blanco para dejar sin cambios)"
+
+#: woocommerce/myaccount/form-edit-account.php:64
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Nueva contraseña (dejar en blanco para dejar sin cambios)"
+
+#: woocommerce/myaccount/form-edit-account.php:68
+msgid "Confirm new password"
+msgstr "Confirmar nueva contraseña"
+
+#: woocommerce/myaccount/form-edit-account.php:85
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr "Guardar dirección"
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr "Iniciar Sesión"
+
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr "Registro"
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A link to set a new password will be sent to your email address."
+msgstr "El link será enviado para asignar una nueva contraseña."
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"¿Perdiste tu contraseña? Por favor, introduce tu nombre de usuario o correo "
+"electrónico. Recibirás un enlace para crear una contraseña nueva por correo "
+"electrónico."
+
+#: woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr "Restablecer contraseña"
+
+#: woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr "Ingrese una nueva contraseña a continuación."
+
+#: woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr "Re-ingrese nueva contraseña"
+
+#: woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr "Guardar"
+
+#: woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr "Correo electrónico de cambio de contraseña enviado."
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+"Se ha enviado un correo electrónico de restablecimiento de contraseña a la "
+"dirección de correo electrónico en el archivo de su cuenta, pero puede "
+"tardar varios minutos en aparecer en su buzón de entrada. Espere por lo "
+"menos 10 minutos antes de intentar otro reseteo."
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Las siguientes direcciones se utilizarán en la página de pago de forma "
+"predeterminada."
+
+#. translators: %s: Address title
+#: woocommerce/myaccount/my-address.php:67
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: woocommerce/myaccount/my-address.php:67
+#, php-format
+msgid "Add %s"
+msgstr "Agregar %s"
+
+#: woocommerce/myaccount/my-address.php:75
+msgid "You have not set up this type of address yet."
+msgstr "Todavía no ha configurado este tipo de dirección."
+
+#: woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr "Descargas disponibles"
+
+#. translators: %s product name
+#: woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] "%s descarga restante"
+msgstr[1] "%s descargas restantes"
+
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr "Orden"
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr "Fecha"
+
+#: woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr "Estado"
+
+#: woocommerce/myaccount/my-orders.php:37
+msgid "Recent orders"
+msgstr "Pedidos recientes"
+
+#: woocommerce/myaccount/my-orders.php:63 woocommerce/myaccount/orders.php:57
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#. translators: 1: formatted order total 2: total order items
+#: woocommerce/myaccount/my-orders.php:75 woocommerce/myaccount/orders.php:69
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s para %2$s elemento"
+msgstr[1] "%1$s para %2$s elementos"
+
+#: woocommerce/myaccount/navigation.php:25
+msgid "Account pages"
+msgstr "Páginas de cuenta"
+
+#. translators: %s: the order number, usually accompanied by a leading #
+#. translators: %s: order number
+#: woocommerce/myaccount/orders.php:56 woocommerce/myaccount/orders.php:79
+#, fuzzy, php-format
+msgid "View order number %s"
+msgstr "Ver número de pedido %s"
+
+#: woocommerce/myaccount/orders.php:103
+msgid "Previous"
+msgstr "Anterior"
+
+#: woocommerce/myaccount/orders.php:107
+msgid "Next"
+msgstr "Siguiente"
+
+#: woocommerce/myaccount/orders.php:114
+msgid "No order has been made yet."
+msgstr "No haz hecho ningún pedido."
+
+#. translators: 1: credit card type 2: last 4 digits
+#: woocommerce/myaccount/payment-methods.php:49
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr "%1$s finalizando en %2$s"
+
+#: woocommerce/myaccount/payment-methods.php:70
+msgid "No saved methods found."
+msgstr "No se encontró ningún método guardado."
+
+#. translators: 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:28 woocommerce/order/tracking.php:30
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr "La orden #%1$s se realizó el %2$s y actualmente esta %3$s."
+
+#: woocommerce/myaccount/view-order.php:37 woocommerce/order/tracking.php:41
+msgid "Order updates"
+msgstr "Actualizaciones de la orden"
+
+#: woocommerce/myaccount/view-order.php:43 woocommerce/order/tracking.php:47
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: woocommerce/order/attribution-details.php:27
+msgid "Origin"
+msgstr "Origen"
+
+#: woocommerce/order/attribution-details.php:41
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+#: woocommerce/order/attribution-details.php:42
+msgid "Hide details"
+msgstr "Ocultar aviso"
+
+#: woocommerce/order/attribution-details.php:51
+msgid "Source type"
+msgstr "Tipo de fuente"
+
+#: woocommerce/order/attribution-details.php:59
+msgid "Campaign"
+msgstr "Campaña"
+
+#: woocommerce/order/attribution-details.php:68
+msgid "Source"
+msgstr "Fuente"
+
+#: woocommerce/order/attribution-details.php:77
+msgid "Medium"
+msgstr "Mediano"
+
+#: woocommerce/order/attribution-details.php:86
+#, fuzzy
+msgid "Source platform"
+msgstr "Plataforma fuente"
+
+#: woocommerce/order/attribution-details.php:95
+#, fuzzy
+msgid "Creative format"
+msgstr "Formato creativo"
+
+#: woocommerce/order/attribution-details.php:104
+#, fuzzy
+msgid "Marketing tactic"
+msgstr "Táctica de marketing"
+
+#: woocommerce/order/attribution-details.php:114
+#, fuzzy
+msgid "Device type"
+msgstr "Tipo de dispositivo"
+
+#: woocommerce/order/attribution-details.php:123
+#, fuzzy
+msgid "Session page views"
+msgstr "Páginas vistas de la sesión"
+
+#: woocommerce/order/attribution-details.php:127
+#, fuzzy
+msgid "The number of unique pages viewed by the customer prior to this order."
+msgstr ""
+"El número de páginas únicas vistas por el cliente antes de este pedido."
+
+#: woocommerce/order/customer-history.php:28
+#, fuzzy
+msgid "Total orders"
+msgstr "Total pedidos"
+
+#: woocommerce/order/customer-history.php:31
+#, fuzzy
+msgid ""
+"Total number of non-cancelled, non-failed orders for this customer, "
+"including the current one."
+msgstr ""
+"Número total de pedidos no cancelados y no fallidos de este cliente, "
+"incluido el actual."
+
+#: woocommerce/order/customer-history.php:43
+#, fuzzy
+msgid "Total revenue"
+msgstr "Ingresos totales"
+
+#: woocommerce/order/customer-history.php:46
+#, fuzzy
+msgid ""
+"This is the Customer Lifetime Value, or the total amount you have earned "
+"from this customer's orders."
+msgstr ""
+"Este es el valor de vida del cliente, o la cantidad total que ha ganado con "
+"los pedidos de este cliente."
+
+#: woocommerce/order/customer-history.php:55
+#, fuzzy
+msgid "Average order value"
+msgstr "Valor medio de los pedidos"
+
+#: woocommerce/order/form-tracking.php:34
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"Para rastrear tu orden introduce tu ID del pedido en el cuadro de abajo y "
+"presiona el botón \"Rastrear\". Esto se te dio en tu recibo y en el correo "
+"electrónico de confirmación que deberías haber recibido."
+
+#: woocommerce/order/form-tracking.php:36
+msgid "Order ID"
+msgstr "ID de la Orden"
+
+#: woocommerce/order/form-tracking.php:36
+msgid "Found in your order confirmation email."
+msgstr "Encuentra en el email de confirmación de la orden."
+
+#: woocommerce/order/form-tracking.php:37
+msgid "Billing email"
+msgstr "Correo electrónico de facturación"
+
+#: woocommerce/order/form-tracking.php:37
+msgid "Email you used during checkout."
+msgstr "Email usado durante la compra."
+
+#: woocommerce/order/form-tracking.php:49
+msgid "Track"
+msgstr "Rastrear"
+
+#: woocommerce/order/order-again.php:22
+msgid "Order again"
+msgstr "Ordenar nuevamente"
+
+#: woocommerce/order/order-details.php:50
+msgid "Order details"
+msgstr "Detalles de la orden"
+
+#: woocommerce/order/order-downloads.php:56
+msgid "&infin;"
+msgstr "&infin;"
+
+#: woocommerce/product-form/simple.php:19
+#: woocommerce/product-form/simple.php:20
+#, fuzzy
+msgid "Basic details"
+msgstr "Datos básicos"
+
+#: woocommerce/product-form/simple.php:26
+#: woocommerce/product-form/simple.php:27
+#, fuzzy
+msgid "Translatable Label"
+msgstr "Etiqueta traducible"
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr "Buscar por:"
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr "Buscar producto &hellip;"
+
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr "Buscar"
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s revisión para %2$s"
+msgstr[1] "%1$s revisiones para %2$s"
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "Comentarios"
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr "Aún no hay comentarios."
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr "Agrega una reseña"
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Sea el primero en escribir una reseña &ldquo;%s&rdquo;"
+
+#. translators: %s is product title
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Dejar una respuesta a %s"
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr "Enviar"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr "Nombre"
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Email"
+msgstr "Email"
+
+#. translators: %s opening and closing link tags respectively
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr "Debes iniciar sesión para publicar una reseña."
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr "Tu calificación"
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr "Puntuación&hellip;"
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr "Perfecto"
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr "Bueno"
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr "Promedio"
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr "No tan mal"
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr "Muy malo"
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr "Tu reseña"
+
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Únicamente los clientes que hayan adquirido este producto puede dejar un "
+"comentario."
+
+#: woocommerce/single-product/add-to-cart/grouped.php:67
+msgid "Buy one of this item"
+msgstr "Compra uno de estos productos"
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr "Este producto está actualmente agotado y no está disponible."
+
+#: woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr "Limpiar"
+
+#: woocommerce/single-product/add-to-cart/variation.php:22
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+"Lo sentimos, este producto no está disponible. Por favor, elija una "
+"combinación diferente."
+
+#: woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr "SKU:"
+
+#: woocommerce/single-product/meta.php:34
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Categoría:"
+msgstr[1] "Categorías:"
+
+#: woocommerce/single-product/meta.php:36
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Etiqueta:"
+msgstr[1] "Etiquetas:"
+
+#: woocommerce/single-product/photoswipe.php:34
+msgid "Close (Esc)"
+msgstr "Cerrar (Esc)"
+
+#: woocommerce/single-product/photoswipe.php:35
+msgid "Share"
+msgstr "Compartir"
+
+#: woocommerce/single-product/photoswipe.php:36
+msgid "Toggle fullscreen"
+msgstr "Alternar a pantalla completa"
+
+#: woocommerce/single-product/photoswipe.php:37
+msgid "Zoom in/out"
+msgstr "Acercar/alejar"
+
+#: woocommerce/single-product/photoswipe.php:49
+msgid "Previous (arrow left)"
+msgstr "Anterior (flecha izquierda)"
+
+#: woocommerce/single-product/photoswipe.php:50
+msgid "Next (arrow right)"
+msgstr "Siguiente (flecha derecha)"
+
+#: woocommerce/single-product/product-attributes.php:26
+msgid "Product Details"
+msgstr "Detalles del Producto"
+
+#: woocommerce/single-product/product-image.php:49
+msgid "Awaiting product image"
+msgstr "Esperando imagen del producto"
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s de reseñas de clientes"
+msgstr[1] "%s comentarios de clientes"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr "Productos relacionados"
+
+#: woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr "Tu opinión está a la espera de aprobación"
+
+#: woocommerce/single-product/review-meta.php:37
+msgid "verified owner"
+msgstr "propietario verificado"
+
+#: woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr "Descripción"
+
+#: woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr "También le puede gustar&hellip;"
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "Soy Michelero"
+msgstr "Soy Michelero"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://soymichelero.com"
+msgstr "https://soymichelero.com"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Tema para Soy Michelero"
+msgstr "Tema para Soy Michelero"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Diego Trigal"
+msgstr "Diego Trigal"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://diegotrigal.com"
+msgstr "https://diegotrigal.com"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Finalizar Compra */"
+msgstr "Finalizar Compra */"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Mi Carrito */ ?>"
+msgstr "Mi Carrito */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "FAQ Page */ ?>"
+msgstr "Página FAQ */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Mi Cuenta */ ?>"
+msgstr "Mi Cuenta */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Mixers */ ?>"
+msgstr "Mezcladores */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Pagina generica */ ?>"
+msgstr "Pagina generica */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Rimmers */ ?>"
+msgstr "Rimmers */ ?>"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Michelada Mix */ ?>"
+msgstr "Michelada Mix */ ?>"

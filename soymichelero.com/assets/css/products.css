@@ -1,0 +1,205 @@
+#rimmers-page .parallax-header {
+    min-height: 80vh;
+    background-color: red;
+    background-image: url(../media/headers/rimmers.jpg);
+    background-position: center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+}
+
+#mixers-page .parallax-header {
+    min-height: 80vh;
+    background-color: red;
+    background-image: url(../media/headers/mixers.jpg);
+    background-position: center top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+}
+
+#michelada-mix-page .parallax-header{
+    min-height: 80vh;
+    background-color: red;
+    background-image: url(../media/headers/micheladamix.jpg);
+    background-position:center-top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+}
+
+.parallax-header h1{
+    font-size: 6rem;
+}
+
+.sauce-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: rgb(153, 25, 15);
+    background: radial-gradient(circle, rgba(153, 25, 15, 1) 0%, rgba(37, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.powder-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #f15a29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.mango-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #fe9400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.cubana-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #2d1111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.blueberry-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #005dfe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.original-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #c90505;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.cucumber-side {
+    position: relative;
+    overflow: hidden;
+    min-height: 80vh;
+    background: #209f00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.original-side .button-image {
+    width: 100%;
+    height: 60px;
+    background-image: url(../media/boxes/8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radial-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/common/rimmers_crosses.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    mix-blend-mode: multiply;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
+.grunge-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../media/common/rimmers_textures.png);
+    mix-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    opacity: .3;
+    z-index: -1;
+}
+
+.product-image {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:640px) {
+    #rimmers-page .parallax-header {
+        min-height: 80vh;
+        background-color: red;
+        background-image: url(../media/headers/rimmers-mobile.jpg);
+        background-position: center;
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+    }
+    
+    #mixers-page .parallax-header {
+        min-height: 50vh;
+        background-color: red;
+        background-image: url(../media/headers/mixers-mobile.jpg);
+        background-position: center;
+        background-size:250% auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+    }
+    
+    #michelada-mix-page .parallax-header{
+        min-height: 80vh;
+        background-color: red;
+        background-image: url(../media/headers/micheladamix-mobile.jpg);
+        background-position:right;
+        background-size:250% auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Hace que el fondo se mueva a una velocidad diferente al scroll */
+    }
+
+    #header h1{
+        font-size: 4.5rem;
+    }
+    
+}

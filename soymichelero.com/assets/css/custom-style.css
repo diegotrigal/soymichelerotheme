@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+overflow-wrap: normal;}
+
+html {
+    scroll-padding-top: 130px; /* Ajusta este valor según la altura de tu menú de navegación */
+}
+
+.typo {
+    font-family: "poster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff8dd;
+}
+
+.typo a {
+    text-decoration: none;
+    color: #fff8dd;
+}
+
+.typo a:hover {
+    text-decoration: underline;
+}
+
+p.typo {
+    font-size: 1.5rem;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #303030;
+    height: 50px;
+    position: relative;
+}
+
+.top-nav .nav-item {
+    margin: 0 5px;
+    color: #f3f3f3;
+}
+
+.menu-principal {
+    z-index: 999;
+    /* Asegura que el contenido esté por encima de los pseudo-elementos */
+    padding: 2px;
+    filter: drop-shadow(0px 2px 2px orange);
+}
+
+.menu-principal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffbb02;
+    /* Aplica el color de fondo */
+    z-index: -1;
+    /* Coloca el color detrás del contenido */
+}
+
+.menu-principal::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/common/rectangle-overlay.png);
+    /* Aplica la imagen */
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+    /* Aplica el blend mode deseado */
+    z-index: -1;
+    /* Coloca la imagen detrás del contenido pero encima del color */
+    pointer-events: none;
+    /* Evita que la imagen interfiera con la interacción */
+}
+
+.menu-principal .nav-item a {
+    text-transform: uppercase;
+    color: #ff5900;
+    font-family: "poster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.menu-principal .nav-item a:hover {
+    text-transform: uppercase;
+    color: #00a2ff;
+    font-family: "poster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.content-overlay {
+    margin-left: 130px;
+}
+
+.custom-vh-100 {
+    height: 100%;
+}
+
+.tp-link a {
+    color: #fff8dd;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.tp-link a:hover {
+    text-decoration: underline;
+}
+
+.tp-link i {
+    color: #fff8dd;
+}
+
+.video-background {
+    position: relative;
+    height: 82vh;
+    overflow: hidden;
+    background: none;
+    /* Elimina cualquier fondo no deseado */
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.welcome-message{
+    width: 30%;
+}
+
+.content-overlay h1 {
+    font-size: 3rem;
+}
+
+.content-section{
+    z-index: 999;
+}
+
+.button-image {
+    width: 100%;
+    height: 60px;
+    background-image: url(../media/boxes/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/common/radial.png); /* Aplica radial.png */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
+#dealers .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../media/common/radial.png); /* Aplica radial.png */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
+#dealers .typo{
+    width: 30%;
+}
+
+.parallax-texture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../media/common/noise.png);
+    mix-blend-mode: screen;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    z-index: 3;
+}
+
+.section-one {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    background: rgb(247, 197, 0);
+    /* Fondo base */
+    background: radial-gradient(circle, rgba(247, 197, 0, 1) 0%, rgba(247, 135, 0, 1) 100%);
+    /* Gradiente radial solo aquí */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* Asegura que el contenido esté sobre las capas de fondo */
+}
+
+.section-two {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh !important;
+    background: rgb(0, 247, 218);
+    background: radial-gradient(circle, rgba(0, 247, 218, 1) 0%, rgba(54, 162, 150, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Asegura que el contenido esté sobre las capas de fondo */
+}
+
+.section-three {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    background: rgb(153,25,15);background: radial-gradient(circle, rgba(153,25,15,1) 0%, rgba(37,0,0,1) 100%);
+    /* Gradiente radial solo aquí */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* Asegura que el contenido esté sobre las capas de fondo */
+}
+
+.card-image-1 {
+    background-image: url(../media/boxes/6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-image-2 {
+    background-image: url(../media/boxes/3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-image-3 {
+    background-image: url(../media/boxes/1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Para adaptar el tamaño de los textos a diferentes resoluciones */
+.card-image h3 {
+    font-size: clamp(1.2rem, 2.5vw, 2rem); /* Ajuste dinámico del tamaño */
+    margin-bottom: 10px;
+    color: #fff8dd;
+}
+
+.card-image p {
+    font-size: clamp(0.8rem, 1.5vw, 1rem); /* Ajuste dinámico del tamaño */
+    color: #fff8dd;
+    margin: 0;
+    padding: 0;
+}
+
+.product-image {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+}
+
+/* No se aplica transform directamente a la imagen */
+.product-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-image img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 4;
+    /* Asegura que la imagen esté sobre las capas de fondo */
+}
+
+h1.typo {
+    position: relative;
+    z-index: 4;
+    /* Asegura que el texto esté sobre las capas de fondo */
+    font-size: 3rem;
+    color: #fff8dd;
+}
+
+.separator {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.centered-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    min-height: 300px;
+}
+
+footer {
+    font-family: "poster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff8dd;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer-elements {
+    list-style: none;
+    margin: 0 10px;
+    /* Ajusta los márgenes entre los elementos de la lista */
+}
+
+.footer-items {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-elements a {
+    color: #fff8dd;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    /* Alinea el ícono y el texto verticalmente */
+}
+
+.footer-elements i {
+    margin-right: 5px;
+    /* Espacio entre el ícono y el texto */
+}
+
+
+
+.light-color {
+    color: #fff8dd !important;
+}
+
+/* Punto de quiebre para ocultar imágenes en dispositivos menores a 640px */
+@media (max-width: 640px) {
+
+    .nav-item img{
+        display: none;
+    }
+
+    .welcome-message{
+        width: 100% !important;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0 20px;
+        
+    }
+
+    .section-one .col-md-4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    #about p{
+        font-size: 1rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #products p{
+        font-size: small;
+        width: 100% !important;
+    }
+
+    .instructions-ul{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .instruction-thumbnails{
+        margin: 10px;
+    }
+
+    .instruction-thumbs{
+        text-align: center;
+    }
+
+    #dealers .typo {
+        width: 90% !important;
+        text-align: center;
+    }
+
+    .content-overlay {
+        margin-left: 0px !important;
+    }
+
+    .d-sm-flex .col-sm-4 img {
+        display: none;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        /* Cambia los enlaces a columnas */
+        text-align: center;
+    }
+
+    .footer-elements {
+        margin-bottom: 10px;
+        /* Añade espacio entre cada enlace */
+    }
+}
+
+.instruction-thumbs{
+    font-size: 0.75rem !important;
+    margin: 10px;
+    text-align: center;
+}
+
+.instruction-thumbnails{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
