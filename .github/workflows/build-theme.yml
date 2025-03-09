@@ -18,7 +18,7 @@ jobs:
         with:
           php-version: '7.4'
 
-      - name: Zip theme files
+      - name: Zip theme files with detailed log
         run: |
           THEME_NAME="soymichelero"
           ZIP_NAME="${THEME_NAME}-$(echo $GITHUB_REF | sed 's/refs\/tags\///').zip"
@@ -26,11 +26,25 @@ jobs:
           # Crear carpeta "soymichelero" dentro del workspace
           mkdir $THEME_NAME
 
-          # Copiar TODO el contenido del tema, incluyendo carpetas y subcarpetas
+          # 📋 Mostrar ESTRUCTURA del directorio original
+          echo "🔍 ESTRUCTURA DEL REPO ANTES DE COPIAR:"
+          tree . || ls -R
+
+          # 📋 Log detallado del contenido que se copia con rsync
+          echo "🚚 Copiando archivos al directorio temporal..."
           rsync -av --progress . "$THEME_NAME/" --exclude=".git*" --exclude=".github"
 
+          # 📋 Mostrar ESTRUCTURA del directorio copiado
+          echo "🔍 ESTRUCTURA DEL DIRECTORIO COPIADO:"
+          tree $THEME_NAME || ls -R $THEME_NAME
+
           # Comprimir el contenido en formato correcto
+          echo "📦 Comprimendo el contenido..."
           zip -r $ZIP_NAME $THEME_NAME
+
+          # 📋 Mostrar ESTRUCTURA del .zip
+          echo "🔍 CONTENIDO DEL ZIP:"
+          unzip -l $ZIP_NAME
 
       - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v1
