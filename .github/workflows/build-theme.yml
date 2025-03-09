@@ -27,7 +27,7 @@ jobs:
           mkdir $THEME_NAME
 
           # Copiar solo el contenido del tema, evitando carpetas duplicadas y no deseadas
-          rsync -av . "$THEME_NAME/" --exclude="$THEME_NAME" --exclude=".git" --exclude=".github" --exclude="node_modules"
+          rsync -av --progress . "$THEME_NAME/" --exclude="$THEME_NAME" --exclude=".git*" --exclude=".github"
 
           # Comprimir el contenido en formato correcto
           zip -r $ZIP_NAME $THEME_NAME
